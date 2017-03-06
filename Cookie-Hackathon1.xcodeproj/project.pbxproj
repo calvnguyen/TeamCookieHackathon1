@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6B06721E521679003E6D33 /* ResultModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B06711E521679003E6D33 /* ResultModal.swift */; };
+		1F6B06741E5219AB003E6D33 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B06731E5219AB003E6D33 /* DatabaseManager.swift */; };
+		4E212EA21E29760F0012CCD6 /* njnaruto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E212EA11E29760F0012CCD6 /* njnaruto.ttf */; };
 		4E5CAD731E28160D002261EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5CAD721E28160D002261EB /* AppDelegate.swift */; };
 		4E5CAD751E28160D002261EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5CAD741E28160D002261EB /* ViewController.swift */; };
 		4E5CAD781E28160D002261EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5CAD761E28160D002261EB /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		4E5CAD7D1E28160D002261EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5CAD7B1E28160D002261EB /* LaunchScreen.storyboard */; };
 		4E5CAD881E28160D002261EB /* Cookie_Hackathon1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5CAD871E28160D002261EB /* Cookie_Hackathon1Tests.swift */; };
 		4E5CAD931E28160D002261EB /* Cookie_Hackathon1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5CAD921E28160D002261EB /* Cookie_Hackathon1UITests.swift */; };
+		8525B0211E49D4CE00221D8C /* RecordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8525B0201E49D4CE00221D8C /* RecordsVC.swift */; };
+		85E5C5C41E4B599400CD96F2 /* up-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E5C5C21E4B599400CD96F2 /* up-xxl.png */; };
+		85E5C5C51E4B599400CD96F2 /* uparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E5C5C31E4B599400CD96F2 /* uparrow.png */; };
+		85E8F3581E4A45E80001B38F /* Change_Pointer_Using_jQuery.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E8F3571E4A45E80001B38F /* Change_Pointer_Using_jQuery.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F6B06711E521679003E6D33 /* ResultModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultModal.swift; sourceTree = "<group>"; };
+		1F6B06731E5219AB003E6D33 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		4E212EA11E29760F0012CCD6 /* njnaruto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = njnaruto.ttf; sourceTree = "<group>"; };
 		4E5CAD6F1E28160D002261EB /* Cookie-Hackathon1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cookie-Hackathon1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5CAD721E28160D002261EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E5CAD741E28160D002261EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		4E5CAD8E1E28160D002261EB /* Cookie-Hackathon1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cookie-Hackathon1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5CAD921E28160D002261EB /* Cookie_Hackathon1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie_Hackathon1UITests.swift; sourceTree = "<group>"; };
 		4E5CAD941E28160D002261EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8525B0201E49D4CE00221D8C /* RecordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsVC.swift; sourceTree = "<group>"; };
+		85E5C5C21E4B599400CD96F2 /* up-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-xxl.png"; sourceTree = "<group>"; };
+		85E5C5C31E4B599400CD96F2 /* uparrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uparrow.png; sourceTree = "<group>"; };
+		85E8F3571E4A45E80001B38F /* Change_Pointer_Using_jQuery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Change_Pointer_Using_jQuery.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		4E5CAD711E28160D002261EB /* Cookie-Hackathon1 */ = {
 			isa = PBXGroup;
 			children = (
+				1F6B06711E521679003E6D33 /* ResultModal.swift */,
+				85E5C5C21E4B599400CD96F2 /* up-xxl.png */,
+				85E5C5C31E4B599400CD96F2 /* uparrow.png */,
+				85E8F3571E4A45E80001B38F /* Change_Pointer_Using_jQuery.png */,
 				4E5CAD721E28160D002261EB /* AppDelegate.swift */,
 				4E5CAD741E28160D002261EB /* ViewController.swift */,
+				1F6B06731E5219AB003E6D33 /* DatabaseManager.swift */,
+				8525B0201E49D4CE00221D8C /* RecordsVC.swift */,
 				4E5CAD761E28160D002261EB /* Main.storyboard */,
 				4E5CAD791E28160D002261EB /* Assets.xcassets */,
 				4E5CAD7B1E28160D002261EB /* LaunchScreen.storyboard */,
 				4E5CAD7E1E28160D002261EB /* Info.plist */,
+				4E212EA11E29760F0012CCD6 /* njnaruto.ttf */,
 			);
 			path = "Cookie-Hackathon1";
 			sourceTree = "<group>";
@@ -193,7 +214,7 @@
 				TargetAttributes = {
 					4E5CAD6E1E28160D002261EB = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 99TJNPY592;
+						DevelopmentTeam = 3CGUTDZTCA;
 						ProvisioningStyle = Automatic;
 					};
 					4E5CAD821E28160D002261EB = {
@@ -234,7 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E5CAD7D1E28160D002261EB /* LaunchScreen.storyboard in Resources */,
+				85E5C5C41E4B599400CD96F2 /* up-xxl.png in Resources */,
+				4E212EA21E29760F0012CCD6 /* njnaruto.ttf in Resources */,
+				85E5C5C51E4B599400CD96F2 /* uparrow.png in Resources */,
 				4E5CAD7A1E28160D002261EB /* Assets.xcassets in Resources */,
+				85E8F3581E4A45E80001B38F /* Change_Pointer_Using_jQuery.png in Resources */,
 				4E5CAD781E28160D002261EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F6B06721E521679003E6D33 /* ResultModal.swift in Sources */,
+				8525B0211E49D4CE00221D8C /* RecordsVC.swift in Sources */,
+				1F6B06741E5219AB003E6D33 /* DatabaseManager.swift in Sources */,
 				4E5CAD751E28160D002261EB /* ViewController.swift in Sources */,
 				4E5CAD731E28160D002261EB /* AppDelegate.swift in Sources */,
 			);
@@ -413,11 +441,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 99TJNPY592;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3CGUTDZTCA;
 				INFOPLIST_FILE = "Cookie-Hackathon1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Cookie-Hackathon1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,11 +458,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 99TJNPY592;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3CGUTDZTCA;
 				INFOPLIST_FILE = "Cookie-Hackathon1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Cookie-Hackathon1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -1,10 +1,4 @@
-//
-//  Cookie_Hackathon1Tests.swift
-//  Cookie-Hackathon1Tests
-//
-//  Created by Stefanie Fluin on 1/12/17.
-//  Copyright © 2017 Stefanie Fluin. All rights reserved.
-//
+
 
 import XCTest
 @testable import Cookie_Hackathon1

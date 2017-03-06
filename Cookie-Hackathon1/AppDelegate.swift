@@ -1,10 +1,6 @@
 //
 //  AppDelegate.swift
-//  Cookie-Hackathon1
-//
-//  Created by Stefanie Fluin on 1/12/17.
-//  Copyright © 2017 Stefanie Fluin. All rights reserved.
-//
+
 
 import UIKit
 
