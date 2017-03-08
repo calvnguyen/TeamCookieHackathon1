@@ -1,0 +1,9 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "4e9807b4c0ddb60dc7802302f001791d"
+build_time: [541924291, 382520000]
+inputs:
+  "/MYApps/DC Kumawat/Measure Ninja folder/Measure Ninja/Cookie-Hackathon1/ResultModal.swift": [540685133, 0]
+  "/MYApps/DC Kumawat/Measure Ninja folder/Measure Ninja/Cookie-Hackathon1/RecordsVC.swift": [540685133, 0]
+  "/MYApps/DC Kumawat/Measure Ninja folder/Measure Ninja/Cookie-Hackathon1/DatabaseManager.swift": [540683787, 0]
+  "/MYApps/DC Kumawat/Measure Ninja folder/Measure Ninja/Cookie-Hackathon1/ViewController.swift": [541870841, 0]
+  "/MYApps/DC Kumawat/Measure Ninja folder/Measure Ninja/Cookie-Hackathon1/AppDelegate.swift": [539746242, 0]

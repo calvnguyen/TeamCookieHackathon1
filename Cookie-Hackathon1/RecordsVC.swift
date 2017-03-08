@@ -2,7 +2,7 @@
 //  RecordsVC.swift
 //  Cookie-Hackathon1
 //
-//  Created by DaVinci on 2/7/17.
+//  Created by Calvin Nguyen on 2/7/17.
 //  Copyright © 2017 Stefanie Fluin. All rights reserved.
 //
 

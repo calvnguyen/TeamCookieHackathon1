@@ -1,6 +1,8 @@
 //
 //  AppDelegate.swift
-
+// lokeshkumawat22@yahoo.com
+// +91-9024548411
+// Skype : lokeshkumawat27
 
 import UIKit
 

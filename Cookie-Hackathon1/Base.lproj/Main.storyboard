@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -136,6 +136,12 @@
                                     <action selector="SaveRecordTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wVB-UP-Lqb"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hl-VR-fdu">
+                                <rect key="frame" x="83" y="13" width="227" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.10980392160000001" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -153,6 +159,9 @@
                             <constraint firstItem="5zl-Bc-bia" firstAttribute="top" secondItem="F9u-4v-Qgl" secondAttribute="bottom" constant="13" id="Rlf-Sw-pLf"/>
                             <constraint firstItem="w8s-ov-ldT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RtW-1y-tBu"/>
                             <constraint firstItem="hkS-Vj-el8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VfS-tD-tyW"/>
+                            <constraint firstAttribute="trailing" secondItem="3hl-VR-fdu" secondAttribute="trailing" constant="10" id="WKx-am-T5w"/>
+                            <constraint firstItem="3hl-VR-fdu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="13" id="XBi-K6-gFA"/>
+                            <constraint firstItem="3hl-VR-fdu" firstAttribute="leading" secondItem="pqI-Tu-FWt" secondAttribute="trailing" constant="57" id="Zjw-BG-Zbn"/>
                             <constraint firstItem="hkS-Vj-el8" firstAttribute="top" secondItem="a1E-bK-qAF" secondAttribute="bottom" constant="117" id="edC-Lj-9Vp"/>
                             <constraint firstItem="w8s-ov-ldT" firstAttribute="top" secondItem="QQZ-hx-bd1" secondAttribute="bottom" constant="2" id="gTf-yP-g9I"/>
                             <constraint firstItem="cRq-AH-V7E" firstAttribute="top" secondItem="a1E-bK-qAF" secondAttribute="bottom" constant="8" id="h8q-8B-8Xa"/>
@@ -172,6 +181,7 @@
                         <outlet property="ShowRecordsBtn" destination="a1E-bK-qAF" id="JSl-a5-WsR"/>
                         <outlet property="appNameLabel" destination="5zl-Bc-bia" id="MlO-4T-x8f"/>
                         <outlet property="distanceResultLabel" destination="cRq-AH-V7E" id="xxX-2z-AtL"/>
+                        <outlet property="lblLKDistance" destination="3hl-VR-fdu" id="hBP-EY-lvS"/>
                         <outlet property="startStopButton" destination="F9u-4v-Qgl" id="x0z-H2-l4B"/>
                         <outlet property="upArrowImg" destination="pqI-Tu-FWt" id="daM-la-7Yj"/>
                     </connections>

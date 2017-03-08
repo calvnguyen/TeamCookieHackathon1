@@ -21,6 +21,7 @@
 		85E5C5C41E4B599400CD96F2 /* up-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E5C5C21E4B599400CD96F2 /* up-xxl.png */; };
 		85E5C5C51E4B599400CD96F2 /* uparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E5C5C31E4B599400CD96F2 /* uparrow.png */; };
 		85E8F3581E4A45E80001B38F /* Change_Pointer_Using_jQuery.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E8F3571E4A45E80001B38F /* Change_Pointer_Using_jQuery.png */; };
+		FFC5F34D1E6960F7005CCAB7 /* LKDistanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC5F34C1E6960F7005CCAB7 /* LKDistanceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,9 @@
 		85E5C5C21E4B599400CD96F2 /* up-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-xxl.png"; sourceTree = "<group>"; };
 		85E5C5C31E4B599400CD96F2 /* uparrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uparrow.png; sourceTree = "<group>"; };
 		85E8F3571E4A45E80001B38F /* Change_Pointer_Using_jQuery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Change_Pointer_Using_jQuery.png; sourceTree = "<group>"; };
+		FFC5F34A1E6960F6005CCAB7 /* Cookie-Hackathon1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cookie-Hackathon1-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFC5F34B1E6960F7005CCAB7 /* LKDistanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDistanceViewController.h; sourceTree = "<group>"; };
+		FFC5F34C1E6960F7005CCAB7 /* LKDistanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDistanceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 		4E5CAD711E28160D002261EB /* Cookie-Hackathon1 */ = {
 			isa = PBXGroup;
 			children = (
+				FFC5F3491E6960CF005CCAB7 /* LKPedometer */,
 				1F6B06711E521679003E6D33 /* ResultModal.swift */,
 				85E5C5C21E4B599400CD96F2 /* up-xxl.png */,
 				85E5C5C31E4B599400CD96F2 /* uparrow.png */,
@@ -144,6 +149,16 @@
 				4E5CAD941E28160D002261EB /* Info.plist */,
 			);
 			path = "Cookie-Hackathon1UITests";
+			sourceTree = "<group>";
+		};
+		FFC5F3491E6960CF005CCAB7 /* LKPedometer */ = {
+			isa = PBXGroup;
+			children = (
+				FFC5F34B1E6960F7005CCAB7 /* LKDistanceViewController.h */,
+				FFC5F34C1E6960F7005CCAB7 /* LKDistanceViewController.m */,
+				FFC5F34A1E6960F6005CCAB7 /* Cookie-Hackathon1-Bridging-Header.h */,
+			);
+			name = LKPedometer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +230,7 @@
 					4E5CAD6E1E28160D002261EB = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3CGUTDZTCA;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					4E5CAD821E28160D002261EB = {
@@ -289,6 +305,7 @@
 				8525B0211E49D4CE00221D8C /* RecordsVC.swift in Sources */,
 				1F6B06741E5219AB003E6D33 /* DatabaseManager.swift in Sources */,
 				4E5CAD751E28160D002261EB /* ViewController.swift in Sources */,
+				FFC5F34D1E6960F7005CCAB7 /* LKDistanceViewController.m in Sources */,
 				4E5CAD731E28160D002261EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,9 +382,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: LOKESH KUMAWAT (RE4CXA4SRL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: LOKESH KUMAWAT (RE4CXA4SRL)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -384,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -415,9 +434,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: LOKESH KUMAWAT (RE4CXA4SRL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: LOKESH KUMAWAT (RE4CXA4SRL)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -428,7 +449,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -441,15 +462,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3CGUTDZTCA;
 				INFOPLIST_FILE = "Cookie-Hackathon1/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Cookie-Hackathon1";
+				PRODUCT_BUNDLE_IDENTIFIER = codingDojo.ninja;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cookie-Hackathon1/Cookie-Hackathon1-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -458,15 +482,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 3CGUTDZTCA;
 				INFOPLIST_FILE = "Cookie-Hackathon1/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Cookie-Hackathon1";
+				PRODUCT_BUNDLE_IDENTIFIER = codingDojo.ninja;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cookie-Hackathon1/Cookie-Hackathon1-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

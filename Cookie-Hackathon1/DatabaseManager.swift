@@ -2,8 +2,8 @@
 //  DatabaseManager.swift
 //  Probe
 //
-//  Created by Dharmesh on 28/01/17.
-//  Copyright © 2017 dharmesh. All rights reserved.
+//  Created by Calvin Nguyen on 01/28/17.
+//  Copyright © 2017 Calvin Nguyen. All rights reserved.
 //
 
 import Foundation

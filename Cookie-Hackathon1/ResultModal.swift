@@ -1,9 +1,8 @@
 //
 //	ResultModal.swift
 //
-//	Create by Dharmesh Avaiya on 23/1/2017
-//	Copyright © 2017 Azilen Technologies. All rights reserved.
-//	Model file generated using JSONExport: https://github.com/Ahmed-Ali/JSONExport
+//	Create by Calvin Nguyen on 01/23/2017
+
 
 import Foundation
 

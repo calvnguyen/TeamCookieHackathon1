@@ -1,0 +1,276 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResultModal"
+provides-nominal:
+- "C17Cookie_Hackathon111ResultModal"
+provides-member:
+- ["C17Cookie_Hackathon111ResultModal", ""]
+provides-dynamic-lookup:
+- "session"
+- "answer"
+- "toDictionary"
+- "key"
+- "encode"
+depends-top-level:
+- "CastingPrecedence"
+- "ResultModal"
+- "AssignmentPrecedence"
+- "NSCoding"
+- "NSCoder"
+- "String"
+- !private "!="
+- "NSObject"
+- !private "NSMutableDictionary"
+- "NSDictionary"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "NSMutableDictionary"]
+- ["Ps9AnyObject", "answer"]
+- !private ["Ps9AnyObject", "decodeObject"]
+- ["Ps9AnyObject", "encode"]
+- ["Ps9AnyObject", "encodeWithCoder"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "key"]
+- ["Ps9AnyObject", "session"]
+- !private ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", "toDictionary"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "NSMutableDictionary"]
+- ["Ps7CVarArg", "answer"]
+- !private ["Ps7CVarArg", "decodeObject"]
+- ["Ps7CVarArg", "encode"]
+- ["Ps7CVarArg", "encodeWithCoder"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "key"]
+- ["Ps7CVarArg", "session"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "toDictionary"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableDictionary"]
+- ["Ps28CustomDebugStringConvertible", "answer"]
+- !private ["Ps28CustomDebugStringConvertible", "decodeObject"]
+- ["Ps28CustomDebugStringConvertible", "encode"]
+- ["Ps28CustomDebugStringConvertible", "encodeWithCoder"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "key"]
+- ["Ps28CustomDebugStringConvertible", "session"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "toDictionary"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "NSMutableDictionary"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "answer"]
+- !private ["Ps23CustomStringConvertible", "decodeObject"]
+- ["Ps23CustomStringConvertible", "encode"]
+- ["Ps23CustomStringConvertible", "encodeWithCoder"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "key"]
+- ["Ps23CustomStringConvertible", "session"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "toDictionary"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "NSMutableDictionary"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "answer"]
+- !private ["Ps9Equatable", "decodeObject"]
+- ["Ps9Equatable", "encode"]
+- ["Ps9Equatable", "encodeWithCoder"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "key"]
+- ["Ps9Equatable", "session"]
+- !private ["Ps9Equatable", "subscript"]
+- ["Ps9Equatable", "toDictionary"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "NSMutableDictionary"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "answer"]
+- !private ["Ps8Hashable", "decodeObject"]
+- ["Ps8Hashable", "encode"]
+- ["Ps8Hashable", "encodeWithCoder"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "key"]
+- ["Ps8Hashable", "session"]
+- !private ["Ps8Hashable", "subscript"]
+- ["Ps8Hashable", "toDictionary"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["CSo7NSCoder", "decodeObject"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["CSo7NSCoder", "encode"]
+- !private ["PSo8NSCoding", "NSMutableDictionary"]
+- !private ["PSo8NSCoding", "answer"]
+- ["PSo8NSCoding", "encode"]
+- ["PSo8NSCoding", "encodeWithCoder"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "key"]
+- !private ["PSo8NSCoding", "session"]
+- !private ["PSo8NSCoding", "subscript"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "deinit"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "subscript"]
+- ["CSo12NSDictionary", "deinit"]
+- !private ["CSo12NSDictionary", "init"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- ["CSo19NSMutableDictionary", "deinit"]
+- !private ["CSo19NSMutableDictionary", "init"]
+- !private ["CSo19NSMutableDictionary", "subscript"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSMutableDictionary"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "answer"]
+- !private ["CSo8NSObject", "decodeObject"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "encode"]
+- ["CSo8NSObject", "encodeWithCoder"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "key"]
+- ["CSo8NSObject", "session"]
+- !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", "toDictionary"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NSMutableDictionary"]
+- ["PSo16NSObjectProtocol", "answer"]
+- !private ["PSo16NSObjectProtocol", "decodeObject"]
+- ["PSo16NSObjectProtocol", "encode"]
+- ["PSo16NSObjectProtocol", "encodeWithCoder"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "key"]
+- ["PSo16NSObjectProtocol", "session"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", "toDictionary"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- ["C17Cookie_Hackathon111ResultModal", "NSCoder"]
+- ["C17Cookie_Hackathon111ResultModal", "NSDictionary"]
+- !private ["C17Cookie_Hackathon111ResultModal", "NSMutableDictionary"]
+- ["C17Cookie_Hackathon111ResultModal", "String"]
+- ["C17Cookie_Hackathon111ResultModal", "answer"]
+- ["C17Cookie_Hackathon111ResultModal", "deinit"]
+- ["C17Cookie_Hackathon111ResultModal", "encode"]
+- ["C17Cookie_Hackathon111ResultModal", "encodeWithCoder"]
+- ["C17Cookie_Hackathon111ResultModal", "init"]
+- ["C17Cookie_Hackathon111ResultModal", "key"]
+- ["C17Cookie_Hackathon111ResultModal", "session"]
+- ["C17Cookie_Hackathon111ResultModal", "toDictionary"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "NSMutableDictionary"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "answer"]
+- !private ["Ps9_Hashable", "decodeObject"]
+- ["Ps9_Hashable", "encode"]
+- ["Ps9_Hashable", "encodeWithCoder"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "key"]
+- ["Ps9_Hashable", "session"]
+- !private ["Ps9_Hashable", "subscript"]
+- ["Ps9_Hashable", "toDictionary"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo19NSMutableDictionary"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- "Sq"
+- "C17Cookie_Hackathon111ResultModal"
+- !private "Ps8Sequence"
+- "Vs12StaticString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/MySoftware/Xcode 8.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/MYApps/DC Kumawat/Measure Ninja folder/Measure Ninja/Cookie-Hackathon1/Cookie-Hackathon1-Bridging-Header.h"
+- "/MYApps/DC Kumawat/Measure Ninja folder/Measure Ninja/Cookie-Hackathon1/LKDistanceViewController.h"
+- "/MySoftware/Xcode 8.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/MySoftware/Xcode 8.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/MySoftware/Xcode 8.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/MySoftware/Xcode 8.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/MySoftware/Xcode 8.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/MySoftware/Xcode 8.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/MySoftware/Xcode 8.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/MySoftware/Xcode 8.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/MySoftware/Xcode 8.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+interface-hash: "cf1ac44095fc83b372cbedf528c7e296"
